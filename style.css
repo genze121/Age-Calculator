@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #4203a9, #90bafc);
+    color: #fff;
+    padding: 10px;
+}
+
+.calculator {
+    width: 100%;
+    max-width: 650px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.calculator span {
+    color: yellow;
+}
+
+.input-box {
+    margin: 40px 0;
+    padding: 35px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-box input {
+    flex: 1;
+    width: 40%;
+    padding: 10px;
+    text-align: left;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    margin: 10px;
+}
+
+.buttons button {
+    background: #ffff76;
+    width: 15%;
+    color: #000;
+    padding: 8px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+}
+
+.result {
+    background: #753dcf;
+    width: 100%;
+    max-width: 630px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10%;
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.clear-button {
+    margin: 5px;
+    background: rgb(239, 17, 17) !important;
+    color: #fff !important;
+}
+
+#result span {
+    color: rgb(255, 117, 4);
+}
+
+.date-text input{
+    text-align: left;
+}
