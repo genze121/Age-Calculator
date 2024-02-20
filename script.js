@@ -46,16 +46,9 @@ function calculateAge() {
     y3--;
   }
 
-  if (y3 !== NaN && m3 !== NaN && d3 !== NaN && result.title === "") {
-    result.innerHTML =
-      `Age : <span>${0}</span>` +
-      ` Month : <span>${0}</span>` +
-      ` Year : <span>${0}</span>`;
-  } else {
-    result.innerHTML = `You are <span>${"0" + y3}</span> years, <span>${
-      "0" + m3
-    } </span> months, and <span>${d3} </span> days old`;
-  }
+  result.innerHTML = `You are <span>${"0" + y3}</span> years, <span>${
+    "0" + m3
+  } </span> months, and <span>${d3} </span> days old`;
 }
 
 function getDaysInMonth(year, month) {
