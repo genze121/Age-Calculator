@@ -2,4 +2,6 @@
 
 ![age](https://github.com/user-attachments/assets/f8f3b36a-32b4-4bb8-b34a-d94cd59c37a2)
 
-<hr>
+-----
+
+Credits: [Tirtha Sharma](https://github.com/genze121 "Tirtha Sharma")
